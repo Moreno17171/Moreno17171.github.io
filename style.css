@@ -1,0 +1,135 @@
+*,::after, ::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.menu{
+    background: rgb(255, 255, 255);
+
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 1.2rem;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: .8rem;
+    text-transform: uppercase;
+    
+}
+.menu-item{
+    list-style: none;
+}
+.link:hover{
+    background: rgb(219, 35, 179);
+    color: white;
+    border-radius: 40% 20% / 10% 30%;
+    transition: all .2s;
+}
+.banner{
+background-image: url(./img/banner\ \(2\).png);
+height: 400px;
+background-position: center;
+background-size: cover;
+}
+
+.section-tittle{
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 3px rgb(163, 73, 73);
+    color: rgb(65, 3, 3);
+    font-size: 2.1rem;
+    padding: 1.2rem 0;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    border-radius: 10px;
+margin-bottom:2rem;
+    
+}
+
+
+.container-imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foto-proyecto{
+    width: 28%;
+    border-radius: 50%;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.button{
+    background-color: rgb(228, 35, 170);
+    color: white;
+    padding: .8rem 1.3rem;
+    border-radius: 5px;
+    text-decoration:none;
+    box-shadow: 3px 3px 5px gray;
+    text-transform: uppercase;
+}
+.container-about{
+    display: flex;
+}
+.container-about .about-text{
+    width: 50%;
+    padding: 1rem;
+}
+.container-about .about-container-img{
+    width: 50%;
+    padding: 1rem;
+}
+.about-container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-img{
+    width: 70%;
+    border-radius: 5%;
+}
+.form{
+font-size: 1.2rem;
+ }
+.label-container{
+margin-bottom: .5rem;
+display: flex;
+}
+.form-label{
+    font-size: 1,2rem;
+    color: rebeccapurple;
+    width: 30%;
+}
+.form input{
+    border-radius: 4px;
+    border-color: pink;
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    flex-grow: 1;
+}
+.footer{
+    height: 200px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    flex-direction: column;
+     }
+
+     .footer p {
+padding: 1rem;
+     }
